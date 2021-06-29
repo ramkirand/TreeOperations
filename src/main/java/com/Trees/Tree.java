@@ -19,6 +19,7 @@ public class Tree {
 	}
 
 	public void add(int x) {
+		
 		TreeNode p = new TreeNode();
 		p.setData(x);
 		p.setLeftChild(null);
